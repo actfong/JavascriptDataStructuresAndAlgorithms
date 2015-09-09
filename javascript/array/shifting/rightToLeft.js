@@ -6,7 +6,7 @@
 
 // Example => shiftLeftToRight([1,2,3,4]) #=> [4,1,2,3]
 
-// Variation 1, looping from left to right
+// Variation 1, iterating from left to right
 function shiftRightToLeft_1(arr){
   lastToMutateIndex = arr.length - 2;
   lastValue = null;

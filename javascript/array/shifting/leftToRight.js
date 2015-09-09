@@ -6,7 +6,7 @@
 
 // Example => shiftLeftToRight([1,2,3,4]) #=> [2,3,4,1]
 
-// Variation 1, looping from left to right
+// Variation 1, iterating from left to right
 function shiftLeftToRight_1(arr){
   memo = null;
   for (i = 0; i < arr.length; i++) {
